@@ -30,6 +30,8 @@ The core of the training loop is the `dqn_train` function. The functions display
 ### Training with grid-search 
 
 In this area of the project code we explore a proposed minimal set of hyperparameters. The actual training loop execution uses the `dqn_train` functions in order to iterate through multiple dictionaries of hyperparameters within the `settings` list. The list can be either manually or grid-search generated (random or exhaustive). The first part uses the previously defined `get_device_info` to show GPU-related info if available.
+Two hyperparameter sets are present in the Jupyter notebook, both with `dueling` and `double_dqn` options enables - the only difference is the starting point of the epsilon and the decay rate.
+Most of the hyperparemeters are chosen at each iteration are saved in the training log.
 
 ### The results
 
