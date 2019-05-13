@@ -42,7 +42,8 @@ Multiple results sets have been generated and the episodes-to-solutions ranges b
 
 #### 5.1 Log #1
 
-Below are the logs for `0.995 eps decay, 0.05 min epsilon`
+Below are the logs for `0.995 eps decay, 0.05 min epsilon`. The model is saved in file `model_1.pt`
+
 ```
 GPU: Tesla K80, Mem:11.2GB, Procs:13
 Initializing QNetwork: dueling=True
@@ -79,7 +80,7 @@ Training iteration 1 done in 0.4 hrs
 
 #### 5.2 Log #2
 
-Below is the second log present in the notebook that achieves the target more quickly by reducing the exploration due to a steeper decrease of epsilon
+Below is the second log present in the notebook that achieves the target more quickly by reducing the exploration due to a steeper decrease of epsilon. The model is saved in file `model_2.pt`
 
 ```
 Training iteration 2...

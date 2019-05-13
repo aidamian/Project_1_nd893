@@ -1,2 +1,9 @@
-Training iteration 2...  eps_start=0.9  eps_min=0.05  eps_decay=0.99Episode  100  AvgS:  3.3  [-1.0-14.0]  Eps: 0.3294  AvgTime: 1.6s/ep			Episode  200  AvgS:  8.2  [ 1.0-21.0]  Eps: 0.1206  AvgTime: 1.6s/ep			Episode  300  AvgS: 10.2  [ 0.0-17.0]  Eps: 0.0500  AvgTime: 1.6s/ep			Episode  400  AvgS: 11.2  [ 3.0-20.0]  Eps: 0.0500  AvgTime: 1.6s/ep			
-Environment (well) solved in 497 episodes!	Average Score: 13.00Training iteration 2 done in 0.2 hrs
+Training iteration 2...  
+eps_start=0.9  eps_min=0.05  eps_decay=0.99
+Episode  100  AvgS:  3.3  [-1.0-14.0]  Eps: 0.3294  AvgTime: 1.6s/ep			
+Episode  200  AvgS:  8.2  [ 1.0-21.0]  Eps: 0.1206  AvgTime: 1.6s/ep			
+Episode  300  AvgS: 10.2  [ 0.0-17.0]  Eps: 0.0500  AvgTime: 1.6s/ep			
+Episode  400  AvgS: 11.2  [ 3.0-20.0]  Eps: 0.0500  AvgTime: 1.6s/ep			
+Environment (well) solved in 497 episodes!	
+Average Score: 13.00
+Training iteration 2 done in 0.2 hrs
