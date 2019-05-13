@@ -37,7 +37,7 @@ Most of the hyperparemeters are chosen at each iteration are saved in the traini
 ### 5. The results
 
 Finally we plot the results for the best grid search iteration allong with the found parameters. The best training iteration is considered the one with the smallest amount of steps until a solution is found.
-Multiple results sets have been generated and the episodes-to-solutions ranges between 700 episodes up to 1300 episodes. Below is presented the partial training log for two hyperparameter settings as previously mentioned:
+Multiple results sets have been generated and the episodes-to-solutions ranges between 500 episodes up to 900 episodes. Below is presented the partial training log for two hyperparameter settings as previously mentioned:
 
 
 #### 5.1 Log #1
@@ -75,4 +75,38 @@ Episode  800  AvgS: 12.6  [ 2.0-23.0]  Eps: 0.0500  AvgTime: 1.6s/ep			teps
 Episode  821  Score: 17.0  AvgS: 13.1  Eps: 0.0500  Time: 1.6s /  299 steps 
 Environment (well) solved in 821 episodes!	Average Score: 13.06
 Training iteration 1 done in 0.4 hrs
+```
+
+#### 5.2 Log #2
+
+Below is the second log present in the notebook that achieves the target more quickly by reducing the exploration due to a steeper decrease of epsilon
+
+```
+Training iteration 2...
+  eps_start=0.9  eps_min=0.05  eps_decay=0.99
+Episode  100  AvgS:  3.3  [-1.0-14.0]  Eps: 0.3294  AvgTime: 1.6s/ep			teps 
+Episode  200  AvgS:  8.2  [ 1.0-21.0]  Eps: 0.1206  AvgTime: 1.6s/ep			teps 
+Episode  300  AvgS: 10.2  [ 0.0-17.0]  Eps: 0.0500  AvgTime: 1.6s/ep			teps 
+Episode  400  AvgS: 11.2  [ 3.0-20.0]  Eps: 0.0500  AvgTime: 1.6s/ep			teps 
+Episode  497  Score: 17.0  AvgS: 13.0  Eps: 0.0500  Time: 1.6s /  299 steps 
+Environment (well) solved in 497 episodes!	Average Score: 13.00
+Training iteration 2 done in 0.2 hrs
+```
+
+### 5.3 The final log
+
+![scores plot](https://github.com/andreidi/Project_1_nd893/blob/master/scores_2.png)
+
+```
+Best hyperparameters:
+  Double DQN:  True
+  Dueling DQN: True
+  eps_start:   0.9
+  eps_min:     0.05
+  eps_decay:   0.99
+Results for last 100 episodes:
+  Min score: 5.0
+  Max score: 23.0
+  Avg score: 13.0
+  Med score: 13.0
 ```
