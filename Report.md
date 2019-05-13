@@ -93,7 +93,9 @@ Environment (well) solved in 497 episodes!	Average Score: 13.00
 Training iteration 2 done in 0.2 hrs
 ```
 
-### 5.3 The final log
+### 5.3 The final results
+
+Finally the 497 episodes required by the second training iterations are plotted below together with the parameters and the last 100 episodes stats:
 
 ![scores plot](https://github.com/andreidi/Project_1_nd893/blob/master/scores_2.png)
 
