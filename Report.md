@@ -64,14 +64,14 @@ QNetwork(
 Initializing QNetwork: dueling=True
 Training iteration 1...
   eps_start=1.0  eps_min=0.05  eps_decay=0.995
-Episode  100  AvgS:  0.7  [-3.0- 4.0]  Eps: 0.6058  AvgTime: 1.5s/ep			teps 
-Episode  200  AvgS:  3.7  [-1.0-12.0]  Eps: 0.3670  AvgTime: 1.6s/ep			teps 
-Episode  300  AvgS:  6.0  [-1.0-17.0]  Eps: 0.2223  AvgTime: 1.6s/ep			teps 
-Episode  400  AvgS:  9.9  [ 0.0-17.0]  Eps: 0.1347  AvgTime: 1.6s/ep			teps 
-Episode  500  AvgS: 11.2  [ 2.0-18.0]  Eps: 0.0816  AvgTime: 1.6s/ep			teps 
-Episode  600  AvgS: 12.3  [ 4.0-21.0]  Eps: 0.0500  AvgTime: 1.6s/ep			teps 
-Episode  700  AvgS: 12.7  [ 5.0-23.0]  Eps: 0.0500  AvgTime: 1.5s/ep			teps 
-Episode  800  AvgS: 12.6  [ 2.0-23.0]  Eps: 0.0500  AvgTime: 1.6s/ep			teps 
+Episode  100  AvgS:  0.7  [-3.0- 4.0]  Eps: 0.6058  AvgTime: 1.5s/ep			
+Episode  200  AvgS:  3.7  [-1.0-12.0]  Eps: 0.3670  AvgTime: 1.6s/ep		
+Episode  300  AvgS:  6.0  [-1.0-17.0]  Eps: 0.2223  AvgTime: 1.6s/ep		
+Episode  400  AvgS:  9.9  [ 0.0-17.0]  Eps: 0.1347  AvgTime: 1.6s/ep		
+Episode  500  AvgS: 11.2  [ 2.0-18.0]  Eps: 0.0816  AvgTime: 1.6s/ep	
+Episode  600  AvgS: 12.3  [ 4.0-21.0]  Eps: 0.0500  AvgTime: 1.6s/ep	
+Episode  700  AvgS: 12.7  [ 5.0-23.0]  Eps: 0.0500  AvgTime: 1.5s/ep	
+Episode  800  AvgS: 12.6  [ 2.0-23.0]  Eps: 0.0500  AvgTime: 1.6s/ep		
 Episode  821  Score: 17.0  AvgS: 13.1  Eps: 0.0500  Time: 1.6s /  299 steps 
 Environment (well) solved in 821 episodes!	Average Score: 13.06
 Training iteration 1 done in 0.4 hrs
@@ -84,10 +84,10 @@ Below is the second log present in the notebook that achieves the target more qu
 ```
 Training iteration 2...
   eps_start=0.9  eps_min=0.05  eps_decay=0.99
-Episode  100  AvgS:  3.3  [-1.0-14.0]  Eps: 0.3294  AvgTime: 1.6s/ep			teps 
-Episode  200  AvgS:  8.2  [ 1.0-21.0]  Eps: 0.1206  AvgTime: 1.6s/ep			teps 
-Episode  300  AvgS: 10.2  [ 0.0-17.0]  Eps: 0.0500  AvgTime: 1.6s/ep			teps 
-Episode  400  AvgS: 11.2  [ 3.0-20.0]  Eps: 0.0500  AvgTime: 1.6s/ep			teps 
+Episode  100  AvgS:  3.3  [-1.0-14.0]  Eps: 0.3294  AvgTime: 1.6s/ep		
+Episode  200  AvgS:  8.2  [ 1.0-21.0]  Eps: 0.1206  AvgTime: 1.6s/ep			
+Episode  300  AvgS: 10.2  [ 0.0-17.0]  Eps: 0.0500  AvgTime: 1.6s/ep		
+Episode  400  AvgS: 11.2  [ 3.0-20.0]  Eps: 0.0500  AvgTime: 1.6s/ep			
 Episode  497  Score: 17.0  AvgS: 13.0  Eps: 0.0500  Time: 1.6s /  299 steps 
 Environment (well) solved in 497 episodes!	Average Score: 13.00
 Training iteration 2 done in 0.2 hrs
